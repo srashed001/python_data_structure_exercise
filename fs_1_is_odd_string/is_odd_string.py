@@ -29,21 +29,21 @@ def is_odd_string(word):
     """
 
     # Hint: you may find the ord() function useful here
-    # count = 0
+    count = 0
 
-    # def unicode_conversion(letter):
-    #     return ord(letter.upper()) - 64
+    def unicode_conversion(letter):
+        return ord(letter.upper()) - 64
     
-    # for ltr in word:
-    #     count += unicode_conversion(ltr)
+    for ltr in word:
+        count += unicode_conversion(ltr)
     
-    # print(count)
+    print(count)
     
-    # return bool(count % 2 != 0)
+    return bool(count % 2 != 0)
     
-    DIFF = ord("a") - 1
-    print(DIFF)
+    # DIFF = ord("a") - 1
+    # print(DIFF)
 
-    total = sum((ord(c) - DIFF) for c in word.lower())
+    # total = sum((ord(c) - DIFF) for c in word.lower())
 
-    return total % 2 == 1
+    # return total % 2 == 1

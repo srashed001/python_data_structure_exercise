@@ -25,7 +25,7 @@ def reverse_vowels(s):
     vowels = "AaEeIiOoUu"
 
     vowel_list = [char for char in s if char in vowels]
-    print(vowel_list)
+ 
 
     for char in s:
         if char not in vowels:
@@ -34,6 +34,5 @@ def reverse_vowels(s):
             new_vowel = vowel_list.pop()
             new_string += new_vowel
     
-    print(vowel_list)
 
     return new_string

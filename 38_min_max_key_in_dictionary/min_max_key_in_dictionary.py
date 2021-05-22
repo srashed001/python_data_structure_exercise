@@ -12,3 +12,7 @@ def min_max_keys(d):
     new_lst = [val for val in d.keys()]
     new_lst.sort()
     return (new_lst[0], new_lst[-1])
+
+    # keys = d.keys()
+
+    # return (min(keys), max(keys))

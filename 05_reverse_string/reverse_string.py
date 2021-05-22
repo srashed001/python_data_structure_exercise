@@ -12,4 +12,6 @@ def reverse_string(phrase):
 
     return "".join(lst)
 
+    # return phrase[::-1]
+    # will loop through and reassign phrase backwards
 
